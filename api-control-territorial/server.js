@@ -14,7 +14,7 @@ import candidatosRoutes from './routes/candidatos.routes.js'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const app = express()
-const PORT = 3001
+const PORT = 3002
 
 app.use(cors())
 app.use(express.json())
